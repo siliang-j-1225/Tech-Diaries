@@ -26,3 +26,4 @@ WPF is build on .NET framework which UWP is not. WPF applications are developed 
 ### **Thirdly, Windows store**
 Windows store only accepts UWP. although there are some ways you can 
 
+{% include comments.html %}
