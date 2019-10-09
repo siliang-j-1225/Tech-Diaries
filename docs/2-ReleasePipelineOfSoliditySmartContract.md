@@ -44,3 +44,5 @@ Bash code example of obtaining address:
 > `addr="$(jq '.networks."NETWORK_ID".address' ../build/contracts/CONTRACT_NAME.json)"`
 
 
+{% include comments.html %}
+
