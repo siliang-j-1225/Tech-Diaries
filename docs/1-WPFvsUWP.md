@@ -1,5 +1,6 @@
 
 # WPF vs UWP
+*2019/09*
 
 In a recent project (July 2019), there is a requirement for developing a front end windows 10 app. This application will interact with server side Restful API and save data to local storage. One of the first questions I have investigated into is, which one should we choose, WPF or UWP?
 
