@@ -1,0 +1,10 @@
+{
+    "resource-group":"ResourceGroup1",
+    "logic-app":"LogicApp1",
+    "actions": [
+        {
+            "action":"ActionName",
+            "contract": "ContractName"
+        }
+    ]
+}
