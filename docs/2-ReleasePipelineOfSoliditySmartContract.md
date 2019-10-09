@@ -43,7 +43,7 @@ After compilation and migration, the contracts in format of json file will be up
 Bash code example of obtaining address:
 > `addr="$(jq '.networks."NETWORK_ID".address' ../build/contracts/CONTRACT_NAME.json)"`
 
-*Complete example of about how to update Logic Apps with the above sample codes [update-logic-app.sh](https://github.com/siliang-jiao/Tech-Diaries/tree/master/examples/solidity-deploy).*
+*Find the complete example of how to update Logic Apps with the above sample codes [update-logic-app.sh](https://github.com/siliang-jiao/Tech-Diaries/tree/master/examples/solidity-deploy).*
 
 {% include comments.html %}
 
