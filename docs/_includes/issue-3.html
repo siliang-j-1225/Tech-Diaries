@@ -1,0 +1,38 @@
+<div id="github-issue-comments">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+
+        issue_id = "3"
+
+        var url = "https://github.com/siliang-jiao/Tech-Diaries/issues/" + issue_id
+        var api_url = "https://api.github.com/repos/siliang-jiao/Tech-Diaries/issues/" + issue_id + "/comments"
+
+        $(document).ready(function () {
+            $.ajax(api_url, {
+                headers: {Accept: "application/vnd.github.v3.html+json"},
+                dataType: "json",
+                success: function(comments) {
+                    $("#github-issue-comments").append("<hr/><h3><a href='" + url + "'>Leave a comment</a></h3>");
+                    $.each(comments, function(i, comment) {
+
+                        var date = new Date(comment.created_at);
+
+                        var t = "<div id='gh-comment'>";
+                        t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
+                        t += "<a href='" + comment.user.html_url + "'>" + comment.user.login + "</a>";
+                        t += "&nbsp;" + date.toTimeString().replace(/.*(\d{2}:\d{2}:\d{2}).*/, "$1");
+                        t += "&nbsp;" + date.toDateString()
+                        t += "<div id='gh-comment-hr'></div>";
+                        t += comment.body_html;
+                        t += "</div>";
+                        t += "<br/>";
+                        $("#github-issue-comments").append(t);
+                    });
+                },
+                error: function() {
+                    $("#github-issue-comments").append("Comments are not open for this post yet.");
+                }
+            });
+        });
+    </script>
+</div>
