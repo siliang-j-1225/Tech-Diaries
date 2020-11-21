@@ -2,7 +2,7 @@
 home: true
 heroImage: null
 heroText: Hello
-tagline: Welcome to Siliang's blog *how about md*
+tagline: Welcome to Siliang's blog
 actionText: All Posts →
 actionLink: /posts/
 features:
