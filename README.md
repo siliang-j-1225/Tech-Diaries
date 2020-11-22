@@ -2,4 +2,4 @@
 
 My notes and memo of projects and learnings.
 
-https://siliang-jiao.github.io/Tech-Diaries/
+https://siliang.z11.web.core.windows.net/index.html
