@@ -31,3 +31,14 @@ jobs:
           cd docs
           npm install
           npm run build
+      
+      - name: Deploy to Azure Storage
+        # You may pin to the exact commit or the version.
+        # uses: TravisSpomer/deploy-to-azure-storage@7e8d16a2515d37e722d32caf382bd6f4a258d4e3
+        uses: TravisSpomer/deploy-to-azure-storage@v1
+        with:
+          # The location of your built site files. (For example, "out".)
+          source-path: docs/.vuepress/dist
+          # A SAS URL for your storage account. (You should store this in a Secret.)
+          sas-url: ${{ secrets.STORAGE_ACCOUNT }}
+      
