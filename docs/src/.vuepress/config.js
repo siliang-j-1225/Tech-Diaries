@@ -40,8 +40,8 @@ module.exports = {
         link: '/posts/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Github Repo',
+        link: 'https://github.com/siliang-jiao/Tech-Diaries'
       }
     ],
     sidebar: {
@@ -52,8 +52,7 @@ module.exports = {
           children: [
             '',
             '1-WPFvsUWP',
-            '2-ReleasePipelineOfSoliditySmartContract',
-            '3-UseAADAsIdProvider'
+            '2-ReleasePipelineOfSoliditySmartContract'
           ]
         }
       ]

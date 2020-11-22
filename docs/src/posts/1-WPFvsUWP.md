@@ -58,4 +58,4 @@ I will add more to this blog about the difference between UWP and WPF.
 
 *TBC*
 
-{% include issue-2.html %}
+<comments issueid="2"/>

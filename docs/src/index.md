@@ -5,12 +5,14 @@ heroText: Hello
 tagline: Welcome to Siliang's blog
 actionText: All Posts →
 actionLink: /posts/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
 footer: Made by siliang with ❤️
 ---
+
+# Latest Updates
+
+2019/09 [Windows]  [WPF vs UWP](posts/1-WPFvsUWP.md)   
+
+2019/05 [BlockChain] [How to create a release pipeline for solidity smart contracts](posts/2-ReleasePipelineOfSoliditySmartContract.md)   
+
+
+
