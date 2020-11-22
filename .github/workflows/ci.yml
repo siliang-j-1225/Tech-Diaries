@@ -38,7 +38,7 @@ jobs:
         uses: TravisSpomer/deploy-to-azure-storage@v1
         with:
           # The location of your built site files. (For example, "out".)
-          source-path: docs/.vuepress/dist
+          source-path: docs/src/.vuepress/dist
           # A SAS URL for your storage account. (You should store this in a Secret.)
           sas-url: ${{ secrets.STORAGE_ACCOUNT }}
       
