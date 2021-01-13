@@ -40,20 +40,37 @@ module.exports = {
         link: '/posts/'
       },
       {
+        text: 'Azure',
+        link: '/posts/azure/'
+      },
+      {
+        text: 'Others',
+        link: '/posts/others/'
+      },
+      {
         text: 'Github Repo',
         link: 'https://github.com/siliang-jiao/Tech-Diaries'
       }
     ],
     sidebar: {
-      '/posts/':[
+      '/posts/azure/':[
         {
-          title: 'All Posts',
+          title: 'Azure Learnings',
+          collapsable: false,
+          children: [
+            '',
+            '3.1-WhatIsAzureMLParallelRunStep'
+          ]
+        }
+      ],
+      '/posts/others/':[
+        {
+          title: 'Others',
           collapsable: false,
           children: [
             '',
             '1-WPFvsUWP',
-            '2-ReleasePipelineOfSoliditySmartContract',
-            '3.1-WhatIsAzureMLParallelRunStep'
+            '2-ReleasePipelineOfSoliditySmartContract'
           ]
         }
       ]
