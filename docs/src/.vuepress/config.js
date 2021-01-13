@@ -33,7 +33,7 @@ module.exports = {
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: 'Last Updated',
     nav: [
       {
         text: 'All Posts',
@@ -52,7 +52,8 @@ module.exports = {
           children: [
             '',
             '1-WPFvsUWP',
-            '2-ReleasePipelineOfSoliditySmartContract'
+            '2-ReleasePipelineOfSoliditySmartContract',
+            '3.1-WhatIsAzureMLParallelRunStep'
           ]
         }
       ]
@@ -64,6 +65,6 @@ module.exports = {
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-medium-zoom'
   ]
 }

@@ -9,6 +9,7 @@ footer: Made by siliang with ❤️
 ---
 
 # Latest Updates
+2021/01 [Azure] [What is Azure ML ParallelRunStep?](posts/3.1-WhatIsAzureMLParallelRunStep.md) 
 
 2019/09 [Windows]  [WPF vs UWP](posts/1-WPFvsUWP.md)   
 
